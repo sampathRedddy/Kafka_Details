@@ -10,4 +10,4 @@ C:\kafka_2.12-0.10.2.1>.\bin\windows\kafka-server-start.bat .\config\server.prop
 C:\kafka_2.12-0.10.2.1>.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic java_in_use_topic --from-beginning
 
 Start the producer listening to the java_in_use_topic-
-C:\kafka_2.12-0.10.2.1>./bin/kafka-console-producer.bat --broker-list localhost:9092 --topic java_in_use_topic
+E:\Software\kafka_2.12-2.3.0\kafka_2.12-2.3.0\bin\windows>kafka-console-producer.bat --broker-list localhost:9092 --topic java_in_use_topic
