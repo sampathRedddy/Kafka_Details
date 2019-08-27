@@ -11,3 +11,7 @@ C:\kafka_2.12-0.10.2.1>.\bin\windows\kafka-console-consumer.bat --bootstrap-serv
 
 Start the producer listening to the java_in_use_topic-
 E:\Software\kafka_2.12-2.3.0\kafka_2.12-2.3.0\bin\windows>kafka-console-producer.bat --broker-list localhost:9092 --topic java_in_use_topic
+
+
+Spring examples : 
+https://github.com/kchrusciel/Spring-Boot-Examples
