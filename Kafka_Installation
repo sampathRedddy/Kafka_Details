@@ -15,3 +15,35 @@ E:\Software\kafka_2.12-2.3.0\kafka_2.12-2.3.0\bin\windows>kafka-console-producer
 
 Spring examples : 
 https://github.com/kchrusciel/Spring-Boot-Examples
+
+C:\del>git init
+Initialized empty Git repository in C:/del/.git/
+
+C:\del>git add .
+
+C:\del>git commit -m "Firt Comite file"
+
+
+C:\del>git remote add origin https://github.com/sampathRedddy/CommandTestRepository.git
+
+C:\del>git push origin master
+
+
+--to checkout the code from github repository
+git clone https://github.com/sampathRedddy/CommandTestRepository.git
+
+
+
+Create new brach and push the changes to that branch
+----------------------------------------------------
+git checkout -b "junit"
+
+git add .
+
+git commit -m "Junits added"
+
+git push
+
+git push --set-upstream origin junit
+
+
